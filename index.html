@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kunal | Web Developer - Showcasing my projects, skills, and experience."
+    />
+    <title>Kunal | Web Developer</title>
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" href="./stylesheets/mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Navbar starts here -->
+    <nav id="navbar">
+      <div class="logo">Draft works</div>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li>
+            <a href="#projects">Work</a>
+          </li>
+          <li>
+            <a href="#about">Myself</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Draft works</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li>
+            <a href="#experience" onclick="toggleMenu()">Experience</a>
+          </li>
+          <li>
+            <a href="#projects" onclick="toggleMenu()">Works</a>
+          </li>
+          <li>
+            <a href="#about" onclick="toggleMenu()">Myself</a>
+          </li>
+          <li>
+            <a href="#contact" onclick="toggleMenu()">Contact</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar ends ends here -->
+
+    <!-- Profile section starts here -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Kunal paraye Profile Image" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Kunal paraye</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Kunal_Paraye_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.location.href='./#contact'"
+          >
+            Contact
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My linkedin Profile"
+            class="icon"
+            onclick="window.location.href='https://www.linkedin.com/in/kunal-paraye-74190a268/'"
+          />
+          <img
+            src="./assets/git.png"
+            alt="My github Profile"
+            class="icon"
+            onclick="window.location.href='https://github.com/dexter-nym'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Profile section starts ends here -->
+
+    <!-- About section starts here -->
+    <section id="about">
+      <hr />
+      <div class="section__text__p1">Get To Know More</div>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile.png"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon experience-icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                1+ years <br />
+                Frontend Development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Bachelors Of Technology <br />
+                Computer Science Degree
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm Kunal, a web developer skilled in front-end and back-end
+              technologies. I build responsive, user-friendly websites using
+              HTML, CSS, JavaScript, React, Node.js, and Express.js. With
+              experience in static and full-stack projects, I focus on
+              performance and seamless UI/UX.
+            </p>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </div>
+    </section>
+    <!-- About section ends here -->
+
+    <!-- Experience Section starts here -->
+    <section id="experience">
+      <hr />
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="about-containers-top">
+            <div class="details-containers">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SASS</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Tailwind CSS</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-containers">
+              <h2 class="experience-sub-title">Backend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node.js</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/tick.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Express.js</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Tools & Platforms</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/tick.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ejs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tick.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tick.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tick.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Emmet</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </div>
+    </section>
+    <!-- Experience Section ends here -->
+
+    <!-- Work Starts here -->
+    <section id="projects">
+      <hr />
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers projects-outer-container">
+          <div class="project-container-left">
+            <div class="detail-container-left">
+              <img
+                src="./assets/background.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-left">
+              <div>
+                <h2 class="experience-sub-title project-title">PixelPalette</h2>
+                <p>
+                  PixelPalette is a self-initiated project designed to enhance
+                  my skills and explore new technologies. It was built using
+                  HTML, CSS, JavaScript, Express.js, and MongoDB.
+                </p>
+              </div>
+              <div class="btn-container-left">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/PixelPalette'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.location.href='https://github.com/dexter-nym/PixelPalette'"
+                >
+                  View Work
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-container-right">
+            <div class="project-details-right">
+              <div>
+                <h2 class="experience-sub-title project-title">Weather App</h2>
+                <p>
+                  The Weather App is a project I built to practice working with
+                  APIs and real-time data. It provides accurate weather
+                  forecasts using HTML, CSS, JavaScript, and OpenWeather API,
+                  delivering a seamless and user-friendly experience.
+                </p>
+              </div>
+              <div class="btn-container-right">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/Weather-app'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.location.href='https://github.com/dexter-nym/Weather-app'"
+                >
+                  View Work
+                </button>
+              </div>
+            </div>
+            <div class="detail-container-right">
+              <img
+                src="./assets/background.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <div class="project-container-left">
+            <div class="detail-container-left">
+              <img
+                src="./assets/background.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-left">
+              <div>
+                <h2 class="experience-sub-title project-title">Chess</h2>
+                <p>
+                  The Chess Game is a project I developed to enhance my
+                  understanding of game logic and interactivity. Built using
+                  HTML, CSS, and JavaScript, it offers a dynamic and responsive
+                  gameplay experience.
+                </p>
+              </div>
+              <div class="btn-container-left">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/Chess'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.location.href='https://github.com/dexter-nym/Chess'"
+                >
+                  View Work
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-container-right">
+            <div class="project-details-right">
+              <div>
+                <h2 class="experience-sub-title project-title">
+                  Pinterest-clone
+                </h2>
+                <p>
+                  The Pinterest Clone is a project I built to practice front-end
+                  and back-end integration, mimicking Pinterest's layout and
+                  functionality. Developed using HTML, CSS, JavaScript,
+                  Express.js, and MongoDB, it allows users to browse, save, and
+                  manage image collections seamlessly.
+                </p>
+              </div>
+              <div class="btn-container-right">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/Pinterest-clone'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.location.href='https://github.com/dexter-nym/Pinterest-clone'"
+                >
+                  View Work
+                </button>
+              </div>
+            </div>
+            <div class="detail-container-right">
+              <img
+                src="./assets/background.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <div class="project-container-left">
+            <div class="detail-container-left">
+              <img
+                src="./assets/background.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-left">
+              <div>
+                <h2 class="experience-sub-title project-title">Todo-app</h2>
+                <p>
+                  The To-Do App is a project I built to enhance task management
+                  functionality and user experience. Developed using HTML, CSS,
+                  and JavaScript, it stores tasks using local storage, ensuring
+                  data persistence within the browser.
+                </p>
+              </div>
+              <div class="btn-container-left">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/todo-app'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.location.href='https://github.com/dexter-nym/todo-app'"
+                >
+                  View Work
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-container-right">
+            <div class="project-details-right">
+              <div>
+                <h2 class="experience-sub-title project-title">Scatch</h2>
+                <p>
+                  Scatch is a premium bag shopping website built with HTML, CSS,
+                  JavaScript, Express.js, and MongoDB. It offers a seamless
+                  browsing experience with dynamic product listings and a secure
+                  backend for managing data efficiently.
+                </p>
+              </div>
+              <div class="btn-container-right">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/Scatch'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.location.href='https://github.com/dexter-nym/Scatch'"
+                >
+                  View Work
+                </button>
+              </div>
+            </div>
+            <div class="detail-container-right">
+              <img
+                src="./assets/background.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </div>
+    </section>
+    <!-- Work Ends here -->
+
+    <!-- Contact section start here -->
+    <section id="contact">
+      <hr />
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email image icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:draftworks000@gmail.com"
+              >Email for more information</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Linkedin image icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/kunal-paraye-74190a268/"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon up-arrow arrow"
+          onclick="location.href='./#navbar'"
+        />
+      </div>
+    </section>
+    <!-- Contact section ends here -->
+
+    <!-- Footer goes here -->
+    <footer id="footer">
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Draft Works. All Rights Reserved</p>
+    </footer>
+    <!-- footer ends here -->
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
