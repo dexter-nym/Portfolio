@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <link rel="stylesheet" href="./stylesheets/mediaqueries.css" />
   </head>
-  <body>
+  <body class="circle-hover">
+    <div class="cursor"></div>
     <!-- Navbar starts here -->
     <nav id="navbar">
       <div class="logo">Draft works</div>
@@ -121,7 +122,7 @@
                 class="icon experience-icon"
               />
               <h3>Experience</h3>
-              <p>
+              <p class="p">
                 1+ years <br />
                 Frontend Development
               </p>
@@ -316,13 +317,13 @@
             </div>
           </div>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
       </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
     <!-- Experience Section ends here -->
 
@@ -336,7 +337,7 @@
           <div class="project-container-left">
             <div class="detail-container-left">
               <img
-                src="./assets/background.png"
+                src="./assets/pixelpalette.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -359,7 +360,7 @@
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.location.href='https://github.com/dexter-nym/PixelPalette'"
+                  onclick="window.open('./assets/pixelpalette.pdf')"
                 >
                   View Work
                 </button>
@@ -386,7 +387,7 @@
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.location.href='https://github.com/dexter-nym/Weather-app'"
+                  onclick="window.open('./assets/pixelpalette.pdf')"
                 >
                   View Work
                 </button>
@@ -394,7 +395,7 @@
             </div>
             <div class="detail-container-right">
               <img
-                src="./assets/background.png"
+                src="./assets/weatherapp.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -403,7 +404,7 @@
           <div class="project-container-left">
             <div class="detail-container-left">
               <img
-                src="./assets/background.png"
+                src="./assets/chess.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -427,7 +428,7 @@
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.location.href='https://github.com/dexter-nym/Chess'"
+                  onclick="window.open('./assets/pixelpalette.pdf')"
                 >
                   View Work
                 </button>
@@ -457,7 +458,7 @@
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.location.href='https://github.com/dexter-nym/Pinterest-clone'"
+                  onclick="window.open('./assets/pinterestclone.pdf')"
                 >
                   View Work
                 </button>
@@ -465,7 +466,7 @@
             </div>
             <div class="detail-container-right">
               <img
-                src="./assets/background.png"
+                src="./assets/pinterestclone.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -474,7 +475,7 @@
           <div class="project-container-left">
             <div class="detail-container-left">
               <img
-                src="./assets/background.png"
+                src="./assets/todoapp.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -498,7 +499,7 @@
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.location.href='https://github.com/dexter-nym/todo-app'"
+                  onclick="window.open('./assets/todoapp.pdf')"
                 >
                   View Work
                 </button>
@@ -525,7 +526,7 @@
                 </button>
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.location.href='https://github.com/dexter-nym/Scatch'"
+                  onclick="window.open('./assets/scatch.pdf')"
                 >
                   View Work
                 </button>
@@ -533,10 +534,44 @@
             </div>
             <div class="detail-container-right">
               <img
-                src="./assets/background.png"
+                src="./assets/scatch.png"
                 alt="Project 1"
                 class="project-img"
               />
+            </div>
+          </div>
+          <div class="project-container-left">
+            <div class="detail-container-left">
+              <img
+                src="./assets/curatex.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-details-left">
+              <div>
+                <h2 class="experience-sub-title project-title">Todo-app</h2>
+                <p>
+                  The To-Do App is a project I built to enhance task management
+                  functionality and user experience. Developed using HTML, CSS,
+                  and JavaScript, it stores tasks using local storage, ensuring
+                  data persistence within the browser.
+                </p>
+              </div>
+              <div class="btn-container-left">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dexter-nym/todo-app'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('./assets/curatex.pdf')"
+                >
+                  View Work
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -544,7 +579,7 @@
           src="./assets/arrow.png"
           alt="Arrow icon"
           class="icon arrow"
-          onclick="location.href='./#contact'"
+          onclick="location.href='./#footer'"
         />
       </div>
     </section>
@@ -562,10 +597,13 @@
             alt="Email image icon"
             class="icon contact-icon email-icon"
           />
-          <p>
+          <p class="long-email">
             <a href="mailto:draftworks000@gmail.com"
               >Email for more information</a
             >
+          </p>
+          <p class="short-email">
+            <a href="mailto:draftworks000@gmail.com">Email</a>
           </p>
         </div>
         <div class="contact-info-container">
