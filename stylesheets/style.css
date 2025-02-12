@@ -160,6 +160,7 @@ input:checked + .button::before {
 
 .hamburger-menu {
   position: relative;
+  
 }
 
 .hamburger-icon {
