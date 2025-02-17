@@ -52,7 +52,6 @@ body::before {
   content: "";
   top: var(--y);
   left: var(--x);
-  transform: translate(-50%, -50%);
   position: absolute;
   background: radial-gradient(#110d0d, transparent, transparent);
   width: 500px;
